@@ -1,0 +1,14 @@
+{
+  "name": "relworx-mobile-money-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Node.js API for Relworx Tanzania, Kenya, and Uganda mobile-money collections, status checks, and signed receipts.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  }
+}
